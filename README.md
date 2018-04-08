@@ -3,7 +3,7 @@
 ## Install dependencies
 
 ```
-npm install
+yarn
 ```
 
 ## Start server
