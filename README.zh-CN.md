@@ -1,9 +1,8 @@
 # gen-server
+基于eggjs开发
 
 
-
-
-### Development
+### 本地开发
 
 ```bash
 $ npm i
@@ -11,7 +10,7 @@ $ npm run dev
 $ open http://localhost:7001/
 ```
 
-### Deploy
+### 部署
 
 ```bash
 $ npm start
