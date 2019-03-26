@@ -14,7 +14,7 @@ module.exports = appInfo => {
       host: '127.0.0.1',
       port: '3306',
       user: 'root',
-      password: '123456',
+      password: '',
       database: 'gen'
     },
     app: true,
@@ -24,6 +24,10 @@ module.exports = appInfo => {
   config.static = {
     prefix: '',
     dir: path.join(appInfo.baseDir, 'app/public')
+  }
+
+  exports.multipart = {
+    whitelist: ['.zip']
   }
 
   return config
