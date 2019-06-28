@@ -1,5 +1,7 @@
 # gen-server
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/genany/gen-server.svg)](https://greenkeeper.io/)
+
 
 
 
